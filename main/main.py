@@ -11,5 +11,5 @@ class Calculadora():
 
 if __name__ == "__main__":
     calculadora = Calculadora()
-    prueba_calculadora = calculadora.calculadora(a = 3, b = 2)
+    prueba_calculadora = calculadora.calculadoraSumaResta(a = 3, b = 2)
     print(prueba_calculadora)

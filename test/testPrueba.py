@@ -3,6 +3,8 @@ import sys
 sys.path.append(".")
 from main.main import Calculadora
 
+# set PYTHONPATH=. pytest test/testPrueba.py 
+
 # Suma
 
 def test_calculadoraSuma_1():
