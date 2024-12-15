@@ -1,7 +1,13 @@
 
 class Calculadora():
-    def calculadora(self, a , b):
+    def calculadoraSumaResta(self, a , b):
         return a + b
+    
+    def calculadoraMultiplicacion(self , a , b):
+        return a * b
+    
+    def calculadoraDivision(self , a , b):
+        return a / b
 
 if __name__ == "__main__":
     calculadora = Calculadora()
